@@ -15,7 +15,16 @@ this.subject=subject;
 }
 }
 
-let teacher1 = new Teacher('paul',35,'Male','English');
+class Student extends Person{
+constructor(name,age,gender,standard){
+super (name,age,gender);
 
-console.log(teacher1.name);
-console.log(teacher1.age);
+this.standard=standard;
+}
+}
+
+let teacher1 = new Teacher('paul',35,'Male','English');
+let student1 = new Student('Mark',12,'Make','VI');
+
+console.log(teacher1);
+console.log(student1);
