@@ -1,5 +1,5 @@
 class Person {
-costructor(name,age,gender){
+constructor(name,age,gender){
 this.name=name;
 this.age=age;
 this.gender=gender;
@@ -8,6 +8,7 @@ this.gender=gender;
 
 class Teacher extends Person{
 constructor(name,age,gender,subject){
+
 super(name,age,gender);
 
 this.subject=subject;
