@@ -5,7 +5,7 @@ this.gender=gender;
 this.standard=standard;
 }
 
-function Teacher(){
+function Teacher(name,age,gender,subject){
 Student.call(this,name,age,gender);
 this.subject=subject;
 }
